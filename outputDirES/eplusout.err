@@ -1,0 +1,72 @@
+Program Version,EnergyPlus, Version 9.0.1-bb7ca4f0da, YMD=2021.01.06 11:28,
+   ************* Beginning Zone Sizing Calculations
+   ** Warning ** Weather file location will be used rather than entered (IDF) Location object.
+   **   ~~~   ** ..Location object=SENZA TITOLO (O1-O1:31-12)  (01-01:31-12)
+   **   ~~~   ** ..Weather File Location=OSLO/FORNEBU - NOR IWEC Data WMO#=014880
+   **   ~~~   ** ..due to location differences, Latitude difference=[0.30] degrees, Longitude difference=[0.46] degrees.
+   **   ~~~   ** ..Time Zone difference=[0.0] hour(s), Elevation difference=[91.67] percent, [187.00] meters.
+   ** Warning ** GetSurfaceData: Construction PARTIZIONE DI PROGETTO of interzone surface BLOCCO1:ZONA3_PARTITION_2_0_0 does not have the same materials in the reverse order as the construction PARTIZIONE DI PROGETTO_REV of adjacent surface BLOCCO1:ZONA1_PARTITION_4_0_10002
+   **   ~~~   ** ...but Nominal U values are similar, diff=[0.0000] ... simulation proceeds.
+   **   ~~~   ** ...if the two zones are expected to have significantly different temperatures, the proper "reverse" construction should be created.
+   **   ~~~   ** ...this problem for this pair will not be reported again.
+   ** Warning ** GetSurfaceData: Entered Zone Floor Areas differ from calculated Zone Floor Area(s).
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual zones.
+   ************* Note that the following warning(s) may/will occur if you have not enclosed your zone completely.
+   ** Warning ** Entered Zone Volumes differ from calculated zone volume(s).
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual zones.
+   ** Warning ** CheckUsedConstructions: There are 6 nominally unused constructions in input.
+   **   ~~~   ** For explicit details on each unused construction, use Output:Diagnostics,DisplayExtraWarnings;
+   ** Warning ** Temperature out of range [-100. to 200.] (PsyPsatFnTemp)
+   **   ~~~   **  Routine=CalcPurchAirLoads, During Sizing, Environment=WINTER DESIGN DAY IN SENZA TITOLO (O1-O1:31-12), at Simulation time=01/15 24:00 - 24:10
+   **   ~~~   **  Input Temperature=-880.46
+   ** Warning ** Output:Meter: invalid Key Name="GAS:FACILITY" - not found.
+   ************* Testing Individual Branch Integrity
+   ************* All Branches passed integrity testing
+   ************* Testing Individual Supply Air Path Integrity
+   ************* All Supply Air Paths passed integrity testing
+   ************* Testing Individual Return Air Path Integrity
+   ************* All Return Air Paths passed integrity testing
+   ************* No node connection errors were found.
+   ************* Beginning Simulation
+   ** Warning ** Processing Monthly Tabular Reports: Variable names not valid for this simulation
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual variables.
+   ************* Simulation Error Summary *************
+   ** Warning ** The following Report Variables were requested but not generated -- check.rdd file
+   **   ~~~   ** Either the IDF did not contain these elements, the variable name is misspelled,
+   **   ~~~   ** or the requested variable is an advanced output which requires Output : Diagnostics, DisplayAdvancedReportVariables;
+   ************* Key=*, VarName=FAN ELECTRIC POWER, Frequency=Hourly
+   ************* Key=*, VarName=WATER USE EQUIPMENT HEATING RATE, Frequency=Hourly
+   ************* Key=*, VarName=ZONE RADIANT HVAC HEATING RATE, Frequency=Hourly
+   ************* Key=*, VarName=ZONE MIXING SENSIBLE HEAT LOSS ENERGY, Frequency=Hourly
+   ************* Key=*, VarName=ZONE MIXING SENSIBLE HEAT GAIN ENERGY, Frequency=Hourly
+   ************* Key=*, VarName=ZONE MIXING STANDARD DENSITY VOLUME FLOW RATE, Frequency=Hourly
+   ************* Key=*, VarName=ZONE ELECTRIC EQUIPMENT TOTAL HEATING RATE, Frequency=Hourly
+   ************* Key=*, VarName=ZONE GAS EQUIPMENT TOTAL HEATING RATE, Frequency=Hourly
+   ************* Key=*, VarName=WATER USE EQUIPMENT HEATING RATE, Frequency=Hourly
+   ************* There are 1 unused objects in input.
+   ************* Use Output:Diagnostics,DisplayUnusedObjects; to see them.
+   ************* There are 12 unused schedules in input.
+   ************* There are 3 unused week schedules in input.
+   ************* There are 5 unused day schedules in input.
+   ************* Use Output:Diagnostics,DisplayUnusedSchedules; to see them.
+   *************
+   ************* ===== Recurring Error Summary =====
+   ************* The following recurring error messages occurred.
+   *************
+   *************  ** Warning ** Temperature out of range [-100. to 200.] (PsyPsatFnTemp)
+   *************  **   ~~~   **   This error occurred 3 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 3 times.
+   *************  **   ~~~   **   Max=-880.463348 C  Min=-4860.912598 C
+   *************
+   *************
+   ************* ===== Final Error Summary =====
+   ************* The following error categories occurred.  Consider correcting or noting.
+   ************* Nominally Unused Constructions
+   ************* ..The nominally unused constructions warning is provided to alert you to potential conditions that can cause
+   ************* ..extra time during simulation. Each construction is calculated by the algorithm indicated in the HeatBalanceAlgorithm
+   ************* ..object. You may remove the constructions indicated (when you use the DisplayExtraWarnings option).
+   *************
+   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 5 Warning; 0 Severe Errors.
+   ************* EnergyPlus Completed Successfully-- 11 Warning; 0 Severe Errors; Elapsed Time=00hr 00min  5.93sec

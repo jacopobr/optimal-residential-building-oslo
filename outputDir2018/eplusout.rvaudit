@@ -1,0 +1,16 @@
+ ReadVarsESO
+ processing:/home/ict4bd/Residential1/IDF_Files/ultimo7.rvi
+ input file:/home/ict4bd/Residential1/outputDir2018/eplusout.eso
+ output file:/home/ict4bd/Residential1/outputDir2018/eplusout.csv
+ getting all vars from:/home/ict4bd/Residential1/outputDir2018/eplusout.eso
+  number variables requested for output=         106
+ ReadVars Run Time=00hr 00min  3.95sec
+ ReadVarsESO program completed successfully.
+ ReadVarsESO
+ processing:/home/ict4bd/Residential1/IDF_Files/ultimo7.mvi
+ input file:/home/ict4bd/Residential1/outputDir2018/eplusout.mtr
+ output file:/home/ict4bd/Residential1/outputDir2018/eplusmtr.csv
+ getting all vars from:/home/ict4bd/Residential1/outputDir2018/eplusout.mtr
+  number variables requested for output=           6
+ ReadVars Run Time=00hr 00min  0.37sec
+ ReadVarsESO program completed successfully.
