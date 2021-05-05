@@ -1,5 +1,5 @@
 # Designing Optimal Residential Building in Oslo and Forecasting of Indoor Air-Temperature for Energy-Efficient Management
-ICT in Building Desing Course - ICT4SS @politecinoditorino - 2020/2021
+ICT in Building Desing Course - ICT4SS @politecnicoditorino - 2020/2021
 
 ##Abstract 
 Buildings are one of the largest consumer of primary energy and attaining their efficiency is an important goal.
